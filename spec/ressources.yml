@@ -1,0 +1,10 @@
+master_node:
+  name: master
+  hostname: master
+  playbook: kubernetes-master.yml
+  nb_nodes: 1
+  nb_worker: 1
+  base_img: ubuntu_k-shop.box
+  ip_address: 192.168.2.10
+  memory_nodes: 2048
+  cpu_nodes: 2
